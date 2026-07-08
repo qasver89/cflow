@@ -1,0 +1,409 @@
+{
+  "_meta": {
+    "version": 1
+  },
+  "admins": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "name": "cFlow Admin",
+      "role": "admin",
+      "createdAt": "2026-07-08T18:17:48.310Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "seed-order-0",
+      "orderNumber": "TB-1000",
+      "tableNumber": 1,
+      "items": [
+        {
+          "id": "bur-01",
+          "name": "Trio Smash Burger",
+          "price": 8.5,
+          "quantity": 1
+        },
+        {
+          "id": "piz-02",
+          "name": "Pepperoni Pizza",
+          "price": 12,
+          "quantity": 1
+        }
+      ],
+      "notes": "Extra spicy please",
+      "subtotal": 20.5,
+      "tax": 1.64,
+      "total": 22.14,
+      "estimatedPrepTime": 15,
+      "status": "Completed",
+      "createdAt": "2026-07-08T18:17:48.310Z"
+    },
+    {
+      "id": "seed-order-1",
+      "orderNumber": "TB-1001",
+      "tableNumber": 2,
+      "items": [
+        {
+          "id": "piz-02",
+          "name": "Pepperoni Pizza",
+          "price": 12,
+          "quantity": 2
+        },
+        {
+          "id": "cof-01",
+          "name": "Ember Espresso",
+          "price": 4.5,
+          "quantity": 2
+        }
+      ],
+      "notes": "",
+      "subtotal": 33,
+      "tax": 2.64,
+      "total": 35.64,
+      "estimatedPrepTime": 16,
+      "status": "Completed",
+      "createdAt": "2026-07-08T18:09:48.310Z"
+    },
+    {
+      "id": "seed-order-2",
+      "orderNumber": "TB-1002",
+      "tableNumber": 3,
+      "items": [
+        {
+          "id": "cof-01",
+          "name": "Ember Espresso",
+          "price": 4.5,
+          "quantity": 3
+        },
+        {
+          "id": "des-01",
+          "name": "Dark Chocolate Torte",
+          "price": 6.5,
+          "quantity": 3
+        }
+      ],
+      "notes": "",
+      "subtotal": 33,
+      "tax": 2.64,
+      "total": 35.64,
+      "estimatedPrepTime": 17,
+      "status": "Completed",
+      "createdAt": "2026-07-08T18:01:48.310Z"
+    },
+    {
+      "id": "seed-order-3",
+      "orderNumber": "TB-1003",
+      "tableNumber": 4,
+      "items": [
+        {
+          "id": "des-01",
+          "name": "Dark Chocolate Torte",
+          "price": 6.5,
+          "quantity": 1
+        },
+        {
+          "id": "dri-02",
+          "name": "Fresh Lemonade",
+          "price": 4,
+          "quantity": 1
+        }
+      ],
+      "notes": "",
+      "subtotal": 10.5,
+      "tax": 0.84,
+      "total": 11.34,
+      "estimatedPrepTime": 18,
+      "status": "Completed",
+      "createdAt": "2026-07-08T17:53:48.310Z"
+    },
+    {
+      "id": "seed-order-4",
+      "orderNumber": "TB-1004",
+      "tableNumber": 5,
+      "items": [
+        {
+          "id": "dri-02",
+          "name": "Fresh Lemonade",
+          "price": 4,
+          "quantity": 2
+        },
+        {
+          "id": "bur-02",
+          "name": "Crispy Chicken Burger",
+          "price": 8,
+          "quantity": 2
+        }
+      ],
+      "notes": "Extra spicy please",
+      "subtotal": 24,
+      "tax": 1.92,
+      "total": 25.92,
+      "estimatedPrepTime": 19,
+      "status": "Completed",
+      "createdAt": "2026-07-08T17:45:48.310Z"
+    },
+    {
+      "id": "seed-order-5",
+      "orderNumber": "TB-1005",
+      "tableNumber": 6,
+      "items": [
+        {
+          "id": "bur-02",
+          "name": "Crispy Chicken Burger",
+          "price": 8,
+          "quantity": 3
+        },
+        {
+          "id": "tea-01",
+          "name": "Karak Chai",
+          "price": 3.5,
+          "quantity": 3
+        }
+      ],
+      "notes": "",
+      "subtotal": 34.5,
+      "tax": 2.76,
+      "total": 37.26,
+      "estimatedPrepTime": 20,
+      "status": "Completed",
+      "createdAt": "2026-07-08T17:37:48.310Z"
+    },
+    {
+      "id": "seed-order-6",
+      "orderNumber": "TB-1006",
+      "tableNumber": 7,
+      "items": [
+        {
+          "id": "tea-01",
+          "name": "Karak Chai",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "id": "piz-01",
+          "name": "Margherita Pizza",
+          "price": 10.5,
+          "quantity": 1
+        }
+      ],
+      "notes": "",
+      "subtotal": 14,
+      "tax": 1.12,
+      "total": 15.12,
+      "estimatedPrepTime": 21,
+      "status": "Completed",
+      "createdAt": "2026-07-08T17:29:48.310Z"
+    },
+    {
+      "id": "seed-order-7",
+      "orderNumber": "TB-1007",
+      "tableNumber": 8,
+      "items": [
+        {
+          "id": "piz-01",
+          "name": "Margherita Pizza",
+          "price": 10.5,
+          "quantity": 2
+        }
+      ],
+      "notes": "",
+      "subtotal": 21,
+      "tax": 1.68,
+      "total": 22.68,
+      "estimatedPrepTime": 22,
+      "status": "Completed",
+      "createdAt": "2026-07-08T17:21:48.310Z"
+    },
+    {
+      "id": "seed-order-8",
+      "orderNumber": "TB-1008",
+      "tableNumber": 9,
+      "items": [
+        {
+          "id": "bur-01",
+          "name": "Trio Smash Burger",
+          "price": 8.5,
+          "quantity": 3
+        },
+        {
+          "id": "piz-02",
+          "name": "Pepperoni Pizza",
+          "price": 12,
+          "quantity": 3
+        }
+      ],
+      "notes": "Extra spicy please",
+      "subtotal": 61.5,
+      "tax": 4.92,
+      "total": 66.42,
+      "estimatedPrepTime": 23,
+      "status": "Preparing",
+      "createdAt": "2026-07-08T17:13:48.310Z"
+    },
+    {
+      "id": "seed-order-9",
+      "orderNumber": "TB-1009",
+      "tableNumber": 10,
+      "items": [
+        {
+          "id": "piz-02",
+          "name": "Pepperoni Pizza",
+          "price": 12,
+          "quantity": 1
+        },
+        {
+          "id": "cof-01",
+          "name": "Ember Espresso",
+          "price": 4.5,
+          "quantity": 1
+        }
+      ],
+      "notes": "",
+      "subtotal": 16.5,
+      "tax": 1.32,
+      "total": 17.82,
+      "estimatedPrepTime": 24,
+      "status": "Preparing",
+      "createdAt": "2026-07-08T17:05:48.310Z"
+    },
+    {
+      "id": "seed-order-10",
+      "orderNumber": "TB-1010",
+      "tableNumber": 11,
+      "items": [
+        {
+          "id": "cof-01",
+          "name": "Ember Espresso",
+          "price": 4.5,
+          "quantity": 2
+        },
+        {
+          "id": "des-01",
+          "name": "Dark Chocolate Torte",
+          "price": 6.5,
+          "quantity": 2
+        }
+      ],
+      "notes": "",
+      "subtotal": 22,
+      "tax": 1.76,
+      "total": 23.76,
+      "estimatedPrepTime": 15,
+      "status": "Ready",
+      "createdAt": "2026-07-08T16:57:48.310Z"
+    },
+    {
+      "id": "seed-order-11",
+      "orderNumber": "TB-1011",
+      "tableNumber": 12,
+      "items": [
+        {
+          "id": "des-01",
+          "name": "Dark Chocolate Torte",
+          "price": 6.5,
+          "quantity": 3
+        },
+        {
+          "id": "dri-02",
+          "name": "Fresh Lemonade",
+          "price": 4,
+          "quantity": 3
+        }
+      ],
+      "notes": "",
+      "subtotal": 31.5,
+      "tax": 2.52,
+      "total": 34.02,
+      "estimatedPrepTime": 16,
+      "status": "Completed",
+      "createdAt": "2026-07-08T16:49:48.310Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1783535516233",
+      "message": "Order TB-1000 updated to \"Completed\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:56.233Z"
+    },
+    {
+      "id": "notif-1783535514816",
+      "message": "Order TB-1001 updated to \"Completed\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:54.816Z"
+    },
+    {
+      "id": "notif-1783535512618",
+      "message": "Order TB-1004 updated to \"Completed\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:52.618Z"
+    },
+    {
+      "id": "notif-1783535511181",
+      "message": "Order TB-1005 updated to \"Completed\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:51.181Z"
+    },
+    {
+      "id": "notif-1783535468897",
+      "message": "Order TB-1008 updated to \"Preparing\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:08.897Z"
+    },
+    {
+      "id": "notif-1783535466761",
+      "message": "Order TB-1004 updated to \"Preparing\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:06.761Z"
+    },
+    {
+      "id": "notif-1783535464424",
+      "message": "Order TB-1002 updated to \"Completed\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:04.424Z"
+    },
+    {
+      "id": "notif-1783535461234",
+      "message": "Order TB-1000 updated to \"Preparing\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:31:01.234Z"
+    },
+    {
+      "id": "notif-1783535458438",
+      "message": "Order TB-1006 updated to \"Completed\"",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:30:58.438Z"
+    },
+    {
+      "id": "notif-1",
+      "message": "New order TB-1001 received from Table 3",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:15:48.310Z"
+    },
+    {
+      "id": "notif-2",
+      "message": "Order TB-1000 marked as Completed",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-08T18:02:48.310Z"
+    },
+    {
+      "id": "notif-3",
+      "message": "Low stock alert: Oat Milk running low",
+      "type": "alert",
+      "read": true,
+      "createdAt": "2026-07-08T17:17:48.310Z"
+    }
+  ]
+}
