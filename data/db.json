@@ -7,12 +7,38 @@
       "id": "admin-1",
       "username": "admin",
       "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
-      "name": "cFlow Admin",
+      "name": "Ninnes Admin",
       "role": "admin",
       "createdAt": "2026-07-08T18:17:48.310Z"
     }
   ],
   "orders": [
+    {
+      "id": "bb364049-5a12-4b15-9022-8ed7ef683d14",
+      "orderNumber": "TB-1100",
+      "tableNumber": 2,
+      "items": [
+        {
+          "id": "cof-01",
+          "name": "Ninnes Espresso",
+          "price": 4.5,
+          "quantity": 1
+        },
+        {
+          "id": "cof-02",
+          "name": "Oat Milk Latte",
+          "price": 5.5,
+          "quantity": 1
+        }
+      ],
+      "notes": "",
+      "subtotal": 10,
+      "tax": 0.8,
+      "total": 10.8,
+      "estimatedPrepTime": 10,
+      "status": "Waiting for Approval",
+      "createdAt": "2026-07-30T12:50:56.498Z"
+    },
     {
       "id": "seed-order-0",
       "orderNumber": "TB-1000",
@@ -52,7 +78,7 @@
         },
         {
           "id": "cof-01",
-          "name": "Ember Espresso",
+          "name": "Ninnes Espresso",
           "price": 4.5,
           "quantity": 2
         }
@@ -72,7 +98,7 @@
       "items": [
         {
           "id": "cof-01",
-          "name": "Ember Espresso",
+          "name": "Ninnes Espresso",
           "price": 4.5,
           "quantity": 3
         },
@@ -254,7 +280,7 @@
         },
         {
           "id": "cof-01",
-          "name": "Ember Espresso",
+          "name": "Ninnes Espresso",
           "price": 4.5,
           "quantity": 1
         }
@@ -274,7 +300,7 @@
       "items": [
         {
           "id": "cof-01",
-          "name": "Ember Espresso",
+          "name": "Ninnes Espresso",
           "price": 4.5,
           "quantity": 2
         },
@@ -321,6 +347,13 @@
     }
   ],
   "notifications": [
+    {
+      "id": "notif-1785415856505",
+      "message": "New order TB-1100 received from Table 2",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-07-30T12:50:56.505Z"
+    },
     {
       "id": "notif-1783535516233",
       "message": "Order TB-1000 updated to \"Completed\"",

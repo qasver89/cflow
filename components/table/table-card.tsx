@@ -24,7 +24,7 @@ export function TableCard({
       className={cn(
         "relative rounded-2xl p-6 text-left border transition-colors duration-300 shadow-card",
         selected
-          ? "bg-evergreen text-paper border-evergreen shadow-glow"
+          ? "bg-brown text-paper border-brown shadow-glow"
           : "bg-paper text-espresso border-espresso/10 hover:border-brass"
       )}
     >

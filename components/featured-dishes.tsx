@@ -6,7 +6,7 @@ import { SectionHeading } from "@/components/section-heading";
 
 const dishes = [
   {
-    name: "Ember Pour-Over",
+    name: "Ninnes Pour-Over",
     note: "Ethiopia Guji, washed",
     price: "6.50",
     img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop",

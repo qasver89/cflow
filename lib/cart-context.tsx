@@ -11,7 +11,7 @@ import {
 import { CartLine, MenuItem, Order } from "./types";
 
 const TAX_RATE = 0.08;
-const STORAGE_KEY = "cFlow-Cart";
+const STORAGE_KEY = "ninnes-cart";
 
 interface CartState {
   lines: CartLine[];

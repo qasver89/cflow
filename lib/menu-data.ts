@@ -13,7 +13,7 @@ export const MENU_ITEMS: MenuItem[] = [
   // Coffee
   {
     id: "cof-01",
-    name: "Ember Espresso",
+    name: "Ninnes Espresso",
     description: "Double shot, dark roast, pulled fresh per order.",
     price: 4.5,
     category: "Coffee",
@@ -145,7 +145,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 11.5,
     category: "Pizza",
     image:
-      "https://images.unsplash.com/photo-1548365328-9f547fb0953b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop",
     prepTime: 16,
     vegetarian: true,
   },

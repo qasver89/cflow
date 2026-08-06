@@ -88,7 +88,7 @@ function OrderConfirmationContent() {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.15, duration: 0.5, type: "spring", stiffness: 260, damping: 18 }}
-              className="h-20 w-20 rounded-full bg-evergreen flex items-center justify-center shadow-glow"
+              className="h-20 w-20 rounded-full bg-brown flex items-center justify-center shadow-glow"
             >
               <CheckCircle2 className="h-10 w-10 text-paper" strokeWidth={1.5} />
             </motion.span>

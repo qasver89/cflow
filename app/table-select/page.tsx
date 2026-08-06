@@ -99,7 +99,7 @@ export default function TableSelectPage() {
           >
             <div>
               {selectedTable !== null ? (
-                <p className="flex items-center gap-2 text-evergreen font-medium">
+                <p className="flex items-center gap-2 text-brown font-medium">
                   <CheckCircle2 className="h-5 w-5" /> Table {selectedTable} selected
                 </p>
               ) : (

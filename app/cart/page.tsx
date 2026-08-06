@@ -29,8 +29,8 @@ export default function CartPage() {
 
           {isEmpty ? (
             <div className="mt-16 flex flex-col items-center text-center py-16">
-              <span className="h-16 w-16 rounded-full bg-evergreen/10 flex items-center justify-center">
-                <ShoppingBag className="h-7 w-7 text-evergreen" strokeWidth={1.5} />
+              <span className="h-16 w-16 rounded-full bg-brown/10 flex items-center justify-center">
+                <ShoppingBag className="h-7 w-7 text-brown" strokeWidth={1.5} />
               </span>
               <p className="mt-6 text-espresso/60 text-lg">
                 Your cart is empty right now.
@@ -67,7 +67,7 @@ export default function CartPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                className="rounded-3xl bg-evergreen text-paper shadow-soft p-8 h-fit lg:sticky lg:top-32"
+                className="rounded-3xl bg-brown text-paper shadow-soft p-8 h-fit lg:sticky lg:top-32"
               >
                 <h2 className="font-display text-xl">Order Summary</h2>
                 <div className="mt-6 space-y-3 font-mono text-sm">

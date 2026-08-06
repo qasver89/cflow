@@ -42,9 +42,18 @@ export function Navbar() {
           scrolled ? "glass py-2 shadow-card" : "bg-transparent py-1"
         )}
       >
-        <Link href="/" className="flex items-center gap-2 font-display text-xl font-semibold text-espresso">
-          <Coffee className="h-5 w-5 text-brass" strokeWidth={1.75} />
-          cFlow Cafe
+        <Link
+          href="/"
+          aria-label="Ninnes Cafe &amp; Restaurant — home"
+          className="flex items-center gap-2.5 text-espresso"
+        >
+          <Coffee className="h-5 w-5 shrink-0 text-brown" strokeWidth={1.75} />
+          <span className="flex flex-col leading-none">
+            <span className="font-display text-lg font-semibold tracking-tight">Ninnes</span>
+            <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-espresso/60">
+              Cafe &amp; Restaurant
+            </span>
+          </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8">

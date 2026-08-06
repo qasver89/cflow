@@ -15,12 +15,12 @@ export function StatCard({
   title: string;
   value: string | number;
   icon: LucideIcon;
-  color: "green" | "brass" | "ember" | "blue";
+  color: "brown" | "brass" | "ember" | "blue";
   suffix?: string;
   index?: number;
 }) {
   const colors = {
-    green: "bg-evergreen/10 text-evergreen",
+    brown: "bg-brown/10 text-brown",
     brass: "bg-brass/10 text-brass-dark",
     ember: "bg-ember/10 text-ember",
     blue: "bg-blue-500/10 text-blue-600",

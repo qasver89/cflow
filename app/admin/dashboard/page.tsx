@@ -80,7 +80,7 @@ export default function DashboardPage() {
           title="Today's Orders"
           value={stats?.todayOrdersCount ?? "—"}
           icon={ShoppingBag}
-          color="green"
+          color="brown"
           index={0}
         />
         <StatCard

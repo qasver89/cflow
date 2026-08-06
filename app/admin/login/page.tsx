@@ -52,7 +52,7 @@ export default function AdminLoginPage() {
           <span className="h-14 w-14 rounded-2xl bg-brass/20 flex items-center justify-center mb-4">
             <Coffee className="h-7 w-7 text-brass-light" strokeWidth={1.5} />
           </span>
-          <h1 className="font-display text-2xl text-paper">cFlow Cafe</h1>
+          <h1 className="font-display text-2xl text-paper">Ninnes Cafe &amp; Restaurant</h1>
           <p className="text-paper/50 text-sm mt-1 font-mono">Admin Portal</p>
         </div>
 
@@ -61,7 +61,7 @@ export default function AdminLoginPage() {
 
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
-              <label className="text-xs font-mono uppercase tracking-wide text-paper/40">
+              <label className="text-xs font-mono uppercase tracking-wide text-paper/65">
                 Username
               </label>
               <input
@@ -70,12 +70,12 @@ export default function AdminLoginPage() {
                 autoComplete="username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className="mt-2 w-full rounded-xl border border-paper/10 bg-paper/5 px-4 py-3 text-sm text-paper placeholder:text-paper/30 focus-visible:border-brass outline-none transition-colors"
+                className="mt-2 w-full rounded-xl border border-paper/10 bg-paper/5 px-4 py-3 text-sm text-paper placeholder:text-paper/50 focus-visible:border-brass outline-none transition-colors"
                 placeholder="admin"
               />
             </div>
             <div>
-              <label className="text-xs font-mono uppercase tracking-wide text-paper/40">
+              <label className="text-xs font-mono uppercase tracking-wide text-paper/65">
                 Password
               </label>
               <div className="relative mt-2">
@@ -85,13 +85,13 @@ export default function AdminLoginPage() {
                   autoComplete="current-password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full rounded-xl border border-paper/10 bg-paper/5 px-4 py-3 pr-12 text-sm text-paper placeholder:text-paper/30 focus-visible:border-brass outline-none transition-colors"
+                  className="w-full rounded-xl border border-paper/10 bg-paper/5 px-4 py-3 pr-12 text-sm text-paper placeholder:text-paper/50 focus-visible:border-brass outline-none transition-colors"
                   placeholder="••••••••"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPw((v) => !v)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-paper/40 hover:text-paper/70"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-paper/65 hover:text-paper transition-colors"
                 >
                   {showPw ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                 </button>
@@ -125,8 +125,8 @@ export default function AdminLoginPage() {
         </div>
 
         {/* Demo hint */}
-        <p className="mt-5 text-center text-xs text-paper/30 font-mono">
-          Demo credentials — username: <span className="text-paper/50">admin</span> &nbsp;/&nbsp; password: <span className="text-paper/50">admin123</span>
+        <p className="mt-5 text-center text-xs text-paper/60 font-mono">
+          Demo credentials — username: <span className="text-paper/90">admin</span> &nbsp;/&nbsp; password: <span className="text-paper/90">admin123</span>
         </p>
       </motion.div>
     </div>

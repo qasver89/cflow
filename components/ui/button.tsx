@@ -8,12 +8,12 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-evergreen text-paper hover:bg-evergreen-dark shadow-card hover:shadow-soft",
+          "bg-brown text-paper hover:bg-brown-dark shadow-card hover:shadow-soft",
         brass:
           "bg-brass text-espresso hover:bg-brass-dark hover:text-paper shadow-card",
         outline:
-          "border border-espresso/20 text-espresso hover:border-espresso hover:bg-espresso hover:text-paper",
-        ghost: "text-espresso hover:bg-espresso/5",
+          "border border-brown/30 text-brown hover:border-brown hover:bg-brown hover:text-paper",
+        ghost: "text-espresso hover:bg-brown/5",
       },
       size: {
         default: "h-12 px-7",

@@ -13,11 +13,11 @@ export function About() {
           transition={{ duration: 0.8 }}
           className="relative"
         >
-          <div className="absolute -inset-6 rounded-3xl bg-brass/10 -z-10" />
+          <div className="absolute -inset-6 rounded-3xl bg-blush/40 -z-10" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1200&auto=format&fit=crop"
-            alt="The roastery floor at Ember & Oak, with the drum roaster and burlap sacks of green coffee"
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop"
+            alt="The dining room at Ninnes Cafe & Restaurant, with warm lighting and set tables"
             className="rounded-3xl shadow-soft w-full aspect-[4/5] object-cover"
           />
           <div className="hidden md:block absolute -bottom-8 -right-8 rounded-2xl bg-paper shadow-soft p-6 max-w-[220px]">
@@ -41,16 +41,16 @@ export function About() {
             Never lost the habit.
           </h2>
           <p className="mt-6 text-espresso/70 text-lg leading-relaxed">
-            cFlow Cafe began in 2025 as a single drum roaster in a
-            converted garage, run before and after a day job. What didn&apos;t
+            Ninnes Cafe &amp; Restaurant began in 2025 as a single drum roaster in
+            a converted garage, run before and after a day job. What didn&apos;t
             change when we moved into this building was the habit of logging
             every roast — temperature, timing, the sound of first crack — the
-            same notebook discipline that started it all.
+            same notebook discipline that now runs the kitchen too.
           </p>
           <p className="mt-4 text-espresso/70 text-lg leading-relaxed">
-            Today the roastery sits behind glass at the back of the café, so
-            you can watch a batch turn from green to gold while you wait for
-            your order.
+            Today the roaster sits behind glass at the back of the dining room,
+            the pastry case is filled before seven, and breakfast runs until
+            close — so there is always a reason to stay a little longer.
           </p>
 
           <div className="mt-8 flex gap-10 font-mono">

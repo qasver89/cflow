@@ -34,7 +34,7 @@ export function FoodCard({ item, index = 0 }: { item: MenuItem; index?: number }
               </span>
             )}
             {item.vegetarian && (
-              <span className="flex items-center gap-1 rounded-full bg-evergreen text-paper text-[11px] font-mono uppercase tracking-wide px-2.5 py-1 shadow-card">
+              <span className="flex items-center gap-1 rounded-full bg-brown text-paper text-[11px] font-mono uppercase tracking-wide px-2.5 py-1 shadow-card">
                 <Leaf className="h-3 w-3" /> Veg
               </span>
             )}
@@ -60,7 +60,7 @@ export function FoodCard({ item, index = 0 }: { item: MenuItem; index?: number }
                 Add to Cart
               </Button>
             ) : (
-              <div className="flex items-center gap-3 rounded-full bg-evergreen/10 px-2 py-1">
+              <div className="flex items-center gap-3 rounded-full bg-brown/10 px-2 py-1">
                 <button
                   aria-label={`Remove one ${item.name}`}
                   onClick={() => setQuantity(item.id, quantity - 1)}

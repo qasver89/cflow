@@ -8,7 +8,7 @@ import { Order } from "@/lib/types";
 const STATUS_STYLES: Record<Order["status"], string> = {
   "Waiting for Approval": "bg-amber-100 text-amber-700 border-amber-200",
   Preparing: "bg-blue-100 text-blue-700 border-blue-200",
-  Ready: "bg-evergreen/10 text-evergreen border-evergreen/20",
+  Ready: "bg-brown/10 text-brown border-brown/20",
   Completed: "bg-espresso/10 text-espresso/60 border-espresso/10",
 };
 

@@ -32,7 +32,7 @@ export function CartLineItem({ line }: { line: CartLine }) {
         </p>
       </div>
 
-      <div className="flex items-center gap-3 rounded-full bg-evergreen/10 px-2 py-1 shrink-0">
+      <div className="flex items-center gap-3 rounded-full bg-brown/10 px-2 py-1 shrink-0">
         <button
           aria-label={`Decrease quantity of ${line.item.name}`}
           onClick={() => setQuantity(line.item.id, line.quantity - 1)}

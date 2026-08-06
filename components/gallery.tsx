@@ -6,32 +6,32 @@ import { SectionHeading } from "@/components/section-heading";
 const images = [
   {
     src: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=900&auto=format&fit=crop",
-    alt: "Latte art on a flat white",
+    alt: "Latte art poured on a flat white",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1453614512568-c4024d13c247?q=80&w=900&auto=format&fit=crop",
-    alt: "Interior seating area with warm light",
+    src: "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=900&auto=format&fit=crop",
+    alt: "The restaurant dining room, set for service",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=900&auto=format&fit=crop",
-    alt: "Roaster tending the drum roaster",
+    src: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=80&w=900&auto=format&fit=crop",
+    alt: "A breakfast plate of eggs, toast and greens",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=900&auto=format&fit=crop",
-    alt: "Green coffee beans in burlap sack",
+    src: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=900&auto=format&fit=crop",
+    alt: "A layered chocolate cake on a stand",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1442550528053-c431ecb55509?q=80&w=900&auto=format&fit=crop",
-    alt: "Espresso shot pulling",
+    src: "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=900&auto=format&fit=crop",
+    alt: "Plated dessert with berries and cream",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1509785307050-d4066910ec1e?q=80&w=900&auto=format&fit=crop",
-    alt: "Pastry case display",
+    src: "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=900&auto=format&fit=crop",
+    alt: "Fresh croissants and pastries in the case",
     span: "",
   },
 ];
@@ -42,7 +42,7 @@ export function Gallery() {
       <div className="container">
         <SectionHeading
           eyebrow="A Look Inside"
-          title="The roastery, the counter, the room"
+          title="The counter, the kitchen, the room"
           align="center"
         />
 

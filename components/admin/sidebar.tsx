@@ -41,12 +41,12 @@ export function AdminSidebar({
             <Coffee className="h-4 w-4 text-brass-light" strokeWidth={1.75} />
           </span>
           <div>
-            <p className="font-display text-sm text-paper leading-none">cFlow Cafe</p>
-            <p className="font-mono text-[10px] text-paper/40 uppercase tracking-wider mt-0.5">Admin</p>
+            <p className="font-display text-sm text-paper leading-none">Ninnes Cafe &amp; Restaurant</p>
+            <p className="font-mono text-[10px] text-paper/65 uppercase tracking-wider mt-0.5">Admin</p>
           </div>
         </Link>
         {onClose && (
-          <button onClick={onClose} className="p-1 text-paper/40 hover:text-paper lg:hidden">
+          <button onClick={onClose} className="p-1 text-paper/65 hover:text-paper lg:hidden">
             <X className="h-5 w-5" />
           </button>
         )}
@@ -65,7 +65,7 @@ export function AdminSidebar({
                 "relative flex items-center gap-3 rounded-xl px-4 py-3 text-sm transition-colors",
                 active
                   ? "text-paper bg-paper/10"
-                  : "text-paper/50 hover:text-paper/80 hover:bg-paper/5"
+                  : "text-paper/65 hover:text-paper/90 hover:bg-paper/5"
               )}
             >
               {active && (
@@ -86,7 +86,7 @@ export function AdminSidebar({
       <div className="px-3 pb-5 border-t border-paper/10 pt-4">
         <button
           onClick={handleLogout}
-          className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-sm text-paper/50 hover:text-ember hover:bg-ember/5 transition-colors"
+          className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-sm text-paper/65 hover:text-ember hover:bg-ember/5 transition-colors"
         >
           <LogOut className="h-4 w-4" strokeWidth={1.75} />
           Sign Out

@@ -74,7 +74,7 @@ function seed(): DbSchema {
         id: "admin-1",
         username: "admin",
         passwordHash: seedHash,
-        name: "cFlow Admin",
+        name: "Ninnes Admin",
         role: "admin",
         createdAt: new Date().toISOString(),
       },
@@ -203,7 +203,7 @@ function generateSeedOrders(): Order[] {
   const items = [
     { id: "bur-01", name: "Trio Smash Burger", price: 8.5 },
     { id: "piz-02", name: "Pepperoni Pizza", price: 12.0 },
-    { id: "cof-01", name: "Ember Espresso", price: 4.5 },
+    { id: "cof-01", name: "Ninnes Espresso", price: 4.5 },
     { id: "des-01", name: "Dark Chocolate Torte", price: 6.5 },
     { id: "dri-02", name: "Fresh Lemonade", price: 4.0 },
     { id: "bur-02", name: "Crispy Chicken Burger", price: 8.0 },

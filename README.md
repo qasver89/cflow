@@ -1,6 +1,6 @@
-# Ember & Oak — Premium Café Landing Page
+# Ninnes Cafe & Restaurant — Premium Café Landing Page
 
-A luxury landing page for an artisan roastery & café, built with Next.js 14 (App Router), TypeScript, Tailwind CSS, shadcn/ui-style components, and Framer Motion.
+A luxury landing page for a café & restaurant, built with Next.js 14 (App Router), TypeScript, Tailwind CSS, shadcn/ui-style components, and Framer Motion.
 
 ## Design concept
 
@@ -9,7 +9,10 @@ graph a coffee roaster actually tracks (Charge → First Crack → Development �
 Drop). It appears large in the hero and again as a thin divider between
 sections, tying the whole page back to the craft the café is built on.
 
-- **Palette**: Reserve Green `#1F3D2F`, Espresso `#2B1D14`, Brass `#B8894F`, Ember `#A64B2A`, Stone `#EFE9DC`, Paper `#FBF8F1`
+- **Palette**: Warm Brown `#6F4E37` (primary / buttons), Dark Brown `#3E2723` (text),
+  Cream `#FFF8F2` (canvas), Paper `#FFFDFB` (cards), Blush `#F8D7DA` (soft accents),
+  Caramel `#C68B59` (accent, `brass-dark` `#8A5A2B` for accent text on cream),
+  Terracotta `#B5533C` (alerts). All text pairings meet WCAG AA.
 - **Type**: Fraunces (display/italic), Work Sans (body), IBM Plex Mono (prices, times, labels)
 
 ## Folder structure

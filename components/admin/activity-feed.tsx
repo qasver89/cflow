@@ -12,7 +12,7 @@ const ICONS = {
 };
 
 const ICON_COLORS = {
-  order: "bg-evergreen/10 text-evergreen",
+  order: "bg-brown/10 text-brown",
   system: "bg-brass/10 text-brass-dark",
   alert: "bg-ember/10 text-ember",
 };

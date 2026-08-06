@@ -18,23 +18,23 @@ export function Contact() {
 
           <div className="mt-10 space-y-5">
             <div className="flex items-center gap-4">
-              <span className="h-11 w-11 rounded-full bg-evergreen/10 flex items-center justify-center shrink-0">
-                <Phone className="h-4 w-4 text-evergreen" />
+              <span className="h-11 w-11 rounded-full bg-brown/10 flex items-center justify-center shrink-0">
+                <Phone className="h-4 w-4 text-brown" />
               </span>
-              <span className="font-mono text-sm text-espresso/80">+92 21 3456 7890</span>
+              <span className="font-mono text-sm text-espresso/80">+358 9 3456 7890</span>
             </div>
             <div className="flex items-center gap-4">
-              <span className="h-11 w-11 rounded-full bg-evergreen/10 flex items-center justify-center shrink-0">
-                <Mail className="h-4 w-4 text-evergreen" />
+              <span className="h-11 w-11 rounded-full bg-brown/10 flex items-center justify-center shrink-0">
+                <Mail className="h-4 w-4 text-brown" />
               </span>
-              <span className="font-mono text-sm text-espresso/80">hello@cflow.cafe</span>
+              <span className="font-mono text-sm text-espresso/80">hello@ninnescafe.com</span>
             </div>
             <div className="flex items-center gap-4">
-              <span className="h-11 w-11 rounded-full bg-evergreen/10 flex items-center justify-center shrink-0">
-                <MapPin className="h-4 w-4 text-evergreen" />
+              <span className="h-11 w-11 rounded-full bg-brown/10 flex items-center justify-center shrink-0">
+                <MapPin className="h-4 w-4 text-brown" />
               </span>
               <span className="font-mono text-sm text-espresso/80">
-                Garden Town, Dera Ghazi Khan
+                Tapiola, Espoo, Finland
               </span>
             </div>
           </div>

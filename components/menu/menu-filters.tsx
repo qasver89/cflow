@@ -44,7 +44,7 @@ export function CategoryFilter({
           className={cn(
             "rounded-full px-5 py-2.5 text-sm font-medium transition-colors border",
             active === c
-              ? "bg-evergreen text-paper border-evergreen"
+              ? "bg-brown text-paper border-brown"
               : "bg-transparent text-espresso/70 border-espresso/15 hover:border-espresso/40"
           )}
         >

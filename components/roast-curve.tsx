@@ -26,13 +26,13 @@ export function RoastCurveHero() {
     >
       {/* baseline grid */}
       {[80, 140, 200, 260].map((y) => (
-        <line key={y} x1="20" y1={y} x2="500" y2={y} stroke="#2B1D14" strokeOpacity="0.06" strokeWidth="1" />
+        <line key={y} x1="20" y1={y} x2="500" y2={y} stroke="#3E2723" strokeOpacity="0.06" strokeWidth="1" />
       ))}
 
       {/* the roast curve itself */}
       <motion.path
         d="M40,290 C90,280 130,250 160,210 C190,168 195,150 220,120 C245,92 300,84 340,80 C390,75 430,60 460,40"
-        stroke="#B8894F"
+        stroke="#6F4E37"
         strokeWidth="3"
         strokeLinecap="round"
         pathLength={1}
@@ -54,8 +54,8 @@ export function RoastCurveHero() {
 
       <defs>
         <linearGradient id="roastGradient" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#A64B2A" stopOpacity="0.35" />
-          <stop offset="100%" stopColor="#A64B2A" stopOpacity="0" />
+          <stop offset="0%" stopColor="#C68B59" stopOpacity="0.35" />
+          <stop offset="100%" stopColor="#C68B59" stopOpacity="0" />
         </linearGradient>
       </defs>
 
@@ -68,7 +68,7 @@ export function RoastCurveHero() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.8 + i * 0.25 }}
         >
-          <circle cx={s.x} cy={[290, 210, 92, 40][i]} r="5" fill="#1F3D2F" />
+          <circle cx={s.x} cy={[290, 210, 92, 40][i]} r="5" fill="#6F4E37" />
           <text
             x={s.x}
             y={[315, 235, 117, 65][i] * 1}
@@ -92,8 +92,8 @@ export function RoastCurveDivider({ className = "" }: { className?: string }) {
       <svg viewBox="0 0 1200 60" className="w-full h-10" preserveAspectRatio="none">
         <motion.path
           d="M0,45 C150,45 200,15 350,15 C500,15 550,45 700,45 C850,45 900,10 1050,10 C1150,10 1180,20 1200,25"
-          stroke="#B8894F"
-          strokeOpacity="0.5"
+          stroke="#E0B48A"
+          strokeOpacity="0.6"
           strokeWidth="1.5"
           fill="none"
           initial={{ pathLength: 0 }}

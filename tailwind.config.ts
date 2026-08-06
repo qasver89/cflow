@@ -14,25 +14,38 @@ const config: Config = {
     },
     extend: {
       colors: {
+        // Page canvas — warm cream
         stone: {
-          DEFAULT: "#EFE9DC",
-          50: "#FBF8F1",
+          DEFAULT: "#FFF8F2",
+          50: "#FFFDFB",
         },
-        paper: "#FBF8F1",
-        espresso: "#2B1D14",
-        evergreen: {
-          DEFAULT: "#1F3D2F",
-          light: "#2C5642",
-          dark: "#152A20",
+        // Card / on-dark text surface — a touch lighter than the canvas
+        paper: "#FFFDFB",
+        // Primary text — dark brown
+        espresso: "#3E2723",
+        // Primary brand + button colour — warm brown (7.4:1 on paper)
+        brown: {
+          DEFAULT: "#6F4E37",
+          light: "#8A6349",
+          dark: "#573C2A",
         },
+        // Accent — caramel. `dark` is the text-safe variant on cream (5.6:1),
+        // `light` is the on-dark-surface variant.
         brass: {
-          DEFAULT: "#B8894F",
-          light: "#D4AC7A",
-          dark: "#8F6636",
+          DEFAULT: "#C68B59",
+          light: "#E0B48A",
+          dark: "#8A5A2B",
         },
+        // Soft pink — decorative washes and highlights only
+        blush: {
+          DEFAULT: "#F8D7DA",
+          soft: "#FDEEEF",
+          deep: "#EDBFC4",
+        },
+        // Alerts / badges — terracotta (4.9:1 on paper, 4.7:1 as text on cream)
         ember: {
-          DEFAULT: "#A64B2A",
-          light: "#C46840",
+          DEFAULT: "#B5533C",
+          light: "#CE6E56",
         },
       },
       fontFamily: {
@@ -46,9 +59,9 @@ const config: Config = {
         "3xl": "2.5rem",
       },
       boxShadow: {
-        soft: "0 20px 60px -20px rgba(43, 29, 20, 0.25)",
-        card: "0 12px 32px -12px rgba(43, 29, 20, 0.18)",
-        glow: "0 0 0 1px rgba(184, 137, 79, 0.25), 0 20px 60px -20px rgba(184, 137, 79, 0.35)",
+        soft: "0 20px 60px -20px rgba(62, 39, 35, 0.22)",
+        card: "0 4px 6px -4px rgba(62, 39, 35, 0.08), 0 12px 32px -12px rgba(62, 39, 35, 0.16)",
+        glow: "0 0 0 1px rgba(198, 139, 89, 0.25), 0 20px 60px -20px rgba(198, 139, 89, 0.35)",
       },
       backgroundImage: {
         grain: "url('/grain.png')",

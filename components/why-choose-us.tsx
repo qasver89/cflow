@@ -30,13 +30,13 @@ const features = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-us" className="section-pad bg-evergreen text-paper relative overflow-hidden">
+    <section id="why-us" className="section-pad bg-brown text-paper relative overflow-hidden">
       <div className="container relative z-10">
         <SectionHeading
           eyebrow="Why Choose Us"
           title={<span className="text-paper">Care, measured in seconds and degrees</span>}
           description=""
-          className="[&_.eyebrow]:text-brass-light"
+          className="[&_.eyebrow]:text-blush"
         />
         <p className="max-w-2xl -mt-2 text-paper/70 text-lg leading-relaxed">
           Anyone can sell a cup of coffee. We track the ones that make it worth drinking.
